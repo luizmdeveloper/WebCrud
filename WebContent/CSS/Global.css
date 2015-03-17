@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+
+div{
+	padding: 2px;
+}
+
+fieldset#field_login {
+	 margin  : auto;
+	 padding : 20px;
+	 width   : 250px;
+	 padding : 15px;
+}
+
+input#login_senha{
+	padding     : 7px;
+	font-family : Times, Arial, Segoe UI;
+}
+
+div#botao_login_senha{
+	font-size   : 12px;
+	float       : rigth;
+	font-family : Times, Arial, Segoe UI;
+}
+
+div.main{
+	min-height : 400px;
+}
+
+div.logo img{
+	float  : left;
+	width  : 15%;
+}
+
+div.cabecalho{
+	min-height : 70px;
+}
+
+.rodape {
+	padding    : 8px;
+	border-top : 1px solid gray;
+}
+
+.cabecalho a{
+	text-decoration : none;
+}
+
+.cabecalho ul, ol{
+	float           : right;
+	text-decoration : none;
+	list-style      : none; 	
+}
+
+.cabecalho li{
+	margin : 0px 2px;
+	padding-left: 10px;
+	float  : left;
+}
